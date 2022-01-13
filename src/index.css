@@ -16,27 +16,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
 
 .app__container {
-  margin: 1em;
   background-color: #23252c;
   border-radius: 15px;
   box-shadow: 0px 0px 35px #23252c;
+  margin: 1em;
 }
 /* End App editing */
 
 /* Start Header */
 .logo {
-  width: 20em;
+  width: 100%;
   border-radius: 15px 15px 0px 0px;
 }
 /* End Header */
 
 /* Start Main  */
 .main {
-  width: 17em;
+  max-width: 450px;
+  width: calc(100% - 10%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,7 +115,7 @@ a {
 
 /* Start Footer */
 .footer {
-  width: 20rem;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: #161619;

@@ -4,9 +4,11 @@ import twitterIcon from "../images/sochial-icons/twitter.svg";
 // import facebookIcon from "../images/sochial-icons/facebook.svg";
 // import instagramIcon from "../images/sochial-icons/instagram.svg";
 
+const github = "https://www.github.com/zeyadsleem";
+const twitter = "https://www.twitter.com/zeyadsleem";
+
 export default function SocialMediaIcons(props) {
   const icons = [githubIcon, twitterIcon];
-  const { github, twitter } = props;
 
   return (
     <div>
