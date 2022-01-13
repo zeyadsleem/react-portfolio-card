@@ -11,14 +11,14 @@ export default function SocialMediaIcons(props) {
   return (
     <div>
       <ul className="social__icons__list">
-        <li key={icons.slice(14, 20)} className="social--icon">
-          <a href={github}>
-            <img src={githubIcon} alt="social icon" />
+        <li key={icons[0].slice(14, 20)} className="social--icon">
+          <a href={github} target={`_blank`}>
+            <img src={githubIcon} alt="github icon" className="icon" />
           </a>
         </li>
-        <li key={icons.slice(14, 20)} className="social--icon">
-          <a href={twitter}>
-            <img src={twitterIcon} alt="social icon" />
+        <li key={icons[1].slice(14, 21)} className="social--icon">
+          <a href={twitter} target={`_blank`}>
+            <img src={twitterIcon} alt="twitter icon" className="icon" />
           </a>
         </li>
       </ul>
