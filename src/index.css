@@ -46,11 +46,10 @@ body {
 }
 
 .buttons {
-  width: calc(100% - 5%);
   display: flex;
+  gap: 0.5em;
   margin: 0.3em 0em;
   padding: 0.1em;
-  justify-content: space-evenly;
 }
 
 .button {
@@ -70,10 +69,10 @@ body {
 
 .rigth__button {
   background-color: #5093e2;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 .left__button {
-  background-color: rgba(255, 255, 255, 0.911);
+  background-color: white;
   color: #161619;
 }
 
@@ -111,6 +110,8 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+
+
 
 /* End Main  */
 
