@@ -9,7 +9,11 @@ export default function Button(props) {
     return (
       <a href="https://linkedin.com/in/zeyad-sleem" target={`_blank`}>
         <div className="button rigth__button">
-          <img src={linkedinIcon} alt="" className="button--logo" />
+          <img
+            src={linkedinIcon}
+            alt=""
+            className="button--logo"
+          />
           <p> LinkedIn </p>
         </div>
       </a>
@@ -17,7 +21,7 @@ export default function Button(props) {
   }
 
   return (
-    <a href="#">
+    <a href="https://reseme.com" target={`_blank`}>
       <div className="button left__button">
         <img src={resemeIcon} alt="" className="button--logo " />
         <p> Reseme </p>
