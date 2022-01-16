@@ -17,7 +17,7 @@ export default function Button(props) {
   }
 
   return (
-    <a href="https://files.fm/down.php?i=qyf59n9kg" target={`_blank`}>
+    <a href="https://www.docdroid.net/6ysjhqX/resume-pdf" target={`_blank`}>
       <div className="button left__button">
         <img src={resemeIcon} alt="" className="button--logo " />
         <p> Reseme </p>
