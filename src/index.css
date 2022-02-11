@@ -30,9 +30,19 @@ body {
 /* End App editing */
 
 /* Start Header */
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
 .logo {
-  width: 100%;
-  border-radius: 15px 15px 0px 0px;
+  margin: 0.5em 0em ;
+  height: 12em;
+  display: flex;
+  border-radius: 50%;
+  width: 12em;
+  object-fit: cover;
 }
 /* End Header */
 
@@ -143,3 +153,9 @@ a {
   width: 1.89em;
 }
 /* End Footer */
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
